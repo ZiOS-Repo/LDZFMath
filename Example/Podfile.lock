@@ -1,0 +1,16 @@
+PODS:
+  - LDZFMath (0.1.0)
+
+DEPENDENCIES:
+  - LDZFMath (from `../`)
+
+EXTERNAL SOURCES:
+  LDZFMath:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LDZFMath: 27812428def5ef5c9d38edddad1eb047545fa055
+
+PODFILE CHECKSUM: 57f77aef7a662aed64935c480fda7d81985a5736
+
+COCOAPODS: 1.10.1

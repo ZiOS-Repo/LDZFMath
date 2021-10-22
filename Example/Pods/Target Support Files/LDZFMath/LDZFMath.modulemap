@@ -1,0 +1,6 @@
+framework module LDZFMath {
+  umbrella header "LDZFMath-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0639727009466EFF1C4B1B46A36F9D5B /* ComputationStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8137A855DFE8ADBBEF07931B647AD9B /* ComputationStrategy.m */; };
+		1E679A2EBBAAD85C7943B23CCDFF92E2 /* LDZFMath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F944C9CD43C09C6B1B0621585B219BB /* LDZFMath-dummy.m */; };
+		2159BBA9E56146904A6BA3E5538F4F3F /* Pods-LDZFMath_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B469E19A308B36137C672A52B04C260F /* Pods-LDZFMath_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		217539A6A9630DF0E0205BCB6037859B /* Pods-LDZFMath_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEB9B76E681F712C3B40322DBEB1372 /* Pods-LDZFMath_Example-dummy.m */; };
+		3FAF83E8BDA133F389C84CA67D46978A /* MathematicalComputation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9038E5CAC98907AC9CF4DCED4F9A2780 /* MathematicalComputation.m */; };
+		466DFF03A82999745FE7E7C97529C2F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4F0EED8347666549206ECF07407BC6B1 /* Pods-LDZFMath_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB880F82D043E074189DAE6919E6149B /* Pods-LDZFMath_Tests-dummy.m */; };
+		5645016E254543EC288317770C38CA3E /* LDZFMath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9703F5C44DAA09F884CB9D086D8BA9 /* LDZFMath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65C65AC66B2BD96AD9846CC5E45A1CE9 /* Pods-LDZFMath_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F94FF784AC685FA06A39E46DBB7A1846 /* Pods-LDZFMath_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73ABF0E97FDFC318F2DC2575F0FDCDCB /* LDZFMath.h in Headers */ = {isa = PBXBuildFile; fileRef = C3561E4260A3CC2172EAA2D5CDA04DAE /* LDZFMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7937DC2D7841692CA4DE8A554C151E5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CD53522CE1DA0E4C757148B79184DACD /* ComputationStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDE02D0EF752EA8A78FF387967BB64C /* ComputationStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF3C81240ED19DE69B388D9E8AFEFEF /* LDMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 7185392E7038388323984F60EA0B0AEB /* LDMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7D48C541386A34EA6013959425CB30B /* MathematicalComputation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3785058F3F1151DE684716AA7096A97A /* MathematicalComputation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2BF8187E823E1468F0F5F5A7C52A109 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F964B7AA7698265EE95521D9C4E51CE2 /* LDMath.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E748C52B56057FAD4F80AADAAB4762 /* LDMath.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50817F383431D04DFF7B9251EA4AAE79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E018B579500A5A18DA6FB952503A6E97;
+			remoteInfo = "Pods-LDZFMath_Example";
+		};
+		D194FA1A5123082D7A80D829E374CA79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F77F41282D2BA2222B3E68F6E18E934;
+			remoteInfo = LDZFMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EC42743F442D2C3C341A260B2426FB /* Pods-LDZFMath_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDZFMath_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F61B49C1A9C4C0F6F1A9407CBE827E8 /* LDZFMath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFMath.debug.xcconfig; sourceTree = "<group>"; };
+		26493E6FBFFF4A213728E3B8E09F5A34 /* LDZFMath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFMath.release.xcconfig; sourceTree = "<group>"; };
+		27587CFC0435B8141A0A206C2B963FD3 /* Pods-LDZFMath_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LDZFMath_Tests.modulemap"; sourceTree = "<group>"; };
+		2F944C9CD43C09C6B1B0621585B219BB /* LDZFMath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDZFMath-dummy.m"; sourceTree = "<group>"; };
+		3785058F3F1151DE684716AA7096A97A /* MathematicalComputation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MathematicalComputation.h; path = LDZFMath/Classes/MathematicalComputation.h; sourceTree = "<group>"; };
+		4896A012F29CD44D6D5879353C087CE5 /* Pods-LDZFMath_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFMath_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BDE02D0EF752EA8A78FF387967BB64C /* ComputationStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComputationStrategy.h; path = LDZFMath/Classes/ComputationStrategy.h; sourceTree = "<group>"; };
+		5452AC6B56E735A5218FB9DBD9349B73 /* Pods-LDZFMath_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFMath_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5541E7FDF371339138408C9D339D22D6 /* LDZFMath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LDZFMath.modulemap; sourceTree = "<group>"; };
+		61DAC3CFEB7C8AF76376C3A596E3D8A9 /* Pods-LDZFMath_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFMath_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6703A4052E35D83F474C4988EC28DD9E /* Pods-LDZFMath_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFMath_Tests-Info.plist"; sourceTree = "<group>"; };
+		6A20A65273F3F55EDFEEED47541F52A9 /* Pods-LDZFMath_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFMath_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7003E04E172A7B130DA597746C526A6B /* LDZFMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LDZFMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7185392E7038388323984F60EA0B0AEB /* LDMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDMath.h; path = LDZFMath/Classes/LDMath.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8FE03D000BE4417E7EFEFDF3C492EA73 /* Pods_LDZFMath_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDZFMath_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9038E5CAC98907AC9CF4DCED4F9A2780 /* MathematicalComputation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MathematicalComputation.m; path = LDZFMath/Classes/MathematicalComputation.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0C9877BF714A1D9C84241394C9C476 /* Pods-LDZFMath_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDZFMath_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AC9703F5C44DAA09F884CB9D086D8BA9 /* LDZFMath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFMath-umbrella.h"; sourceTree = "<group>"; };
+		ACC95811643D95520D57B5591973D2FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B469E19A308B36137C672A52B04C260F /* Pods-LDZFMath_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDZFMath_Example-umbrella.h"; sourceTree = "<group>"; };
+		B754FBF9579FCF8050B11D22C4ABA0FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BAD93CD07255B69DEA65D175BB075CC7 /* Pods-LDZFMath_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFMath_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BBEB9B76E681F712C3B40322DBEB1372 /* Pods-LDZFMath_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDZFMath_Example-dummy.m"; sourceTree = "<group>"; };
+		BFC7543594486842EE96B3AAE5C9160A /* Pods-LDZFMath_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDZFMath_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3561E4260A3CC2172EAA2D5CDA04DAE /* LDZFMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZFMath.h; path = LDZFMath/Classes/LDZFMath.h; sourceTree = "<group>"; };
+		C8137A855DFE8ADBBEF07931B647AD9B /* ComputationStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComputationStrategy.m; path = LDZFMath/Classes/ComputationStrategy.m; sourceTree = "<group>"; };
+		CB880F82D043E074189DAE6919E6149B /* Pods-LDZFMath_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDZFMath_Tests-dummy.m"; sourceTree = "<group>"; };
+		CBEB0E0EA802E2C1E634D6F8FFFE1446 /* Pods-LDZFMath_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFMath_Example-Info.plist"; sourceTree = "<group>"; };
+		D265D252F4A780AC78DA6A27AABAE556 /* Pods-LDZFMath_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFMath_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D8D788B395B43D1813607ABFD3A488F9 /* Pods-LDZFMath_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LDZFMath_Example.modulemap"; sourceTree = "<group>"; };
+		DB27C09E3A76D5258B696CADBA35195D /* LDZFMath.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LDZFMath.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		EB691E0BBBCDB5F0AD4275CCF8910D0E /* Pods_LDZFMath_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDZFMath_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F51AC9B2890A340CB199502EC83E21 /* LDZFMath-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LDZFMath-Info.plist"; sourceTree = "<group>"; };
+		F8E748C52B56057FAD4F80AADAAB4762 /* LDMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LDMath.m; path = LDZFMath/Classes/LDMath.m; sourceTree = "<group>"; };
+		F94FF784AC685FA06A39E46DBB7A1846 /* Pods-LDZFMath_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDZFMath_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FC2C2507571A5971327F3D2A2A78FA3C /* LDZFMath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFMath-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E0E5CF1FF5084C67E869F5E0F3769AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BF8187E823E1468F0F5F5A7C52A109 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8454D20D6A1E255122EC2FCDACD94181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7937DC2D7841692CA4DE8A554C151E5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		970CA30A744EC5AFB91A4A85963640EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466DFF03A82999745FE7E7C97529C2F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EB722EC122391F97025313D90AC027B /* LDZFMath */ = {
+			isa = PBXGroup;
+			children = (
+				4BDE02D0EF752EA8A78FF387967BB64C /* ComputationStrategy.h */,
+				C8137A855DFE8ADBBEF07931B647AD9B /* ComputationStrategy.m */,
+				7185392E7038388323984F60EA0B0AEB /* LDMath.h */,
+				F8E748C52B56057FAD4F80AADAAB4762 /* LDMath.m */,
+				C3561E4260A3CC2172EAA2D5CDA04DAE /* LDZFMath.h */,
+				3785058F3F1151DE684716AA7096A97A /* MathematicalComputation.h */,
+				9038E5CAC98907AC9CF4DCED4F9A2780 /* MathematicalComputation.m */,
+				A9E0877DEF628BE8F1A3C237E8A4B66A /* Pod */,
+				C33458877DD39B131389E9FBFAB78CFC /* Support Files */,
+			);
+			name = LDZFMath;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63EE5D6CA4865D446C8721A1E8477377 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E89B336A7CF2FE3362DCC1837722E3C4 /* Pods-LDZFMath_Example */,
+				EA471297A3F45C9DA445BFA982924C29 /* Pods-LDZFMath_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		772248B607C14A3EFAA0554E5FE479C1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EB722EC122391F97025313D90AC027B /* LDZFMath */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		89CAC5DA02C71022B6ED635CD655EBD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7003E04E172A7B130DA597746C526A6B /* LDZFMath.framework */,
+				8FE03D000BE4417E7EFEFDF3C492EA73 /* Pods_LDZFMath_Example.framework */,
+				EB691E0BBBCDB5F0AD4275CCF8910D0E /* Pods_LDZFMath_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E0877DEF628BE8F1A3C237E8A4B66A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DB27C09E3A76D5258B696CADBA35195D /* LDZFMath.podspec */,
+				B754FBF9579FCF8050B11D22C4ABA0FF /* LICENSE */,
+				ACC95811643D95520D57B5591973D2FC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C33458877DD39B131389E9FBFAB78CFC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5541E7FDF371339138408C9D339D22D6 /* LDZFMath.modulemap */,
+				2F944C9CD43C09C6B1B0621585B219BB /* LDZFMath-dummy.m */,
+				F6F51AC9B2890A340CB199502EC83E21 /* LDZFMath-Info.plist */,
+				FC2C2507571A5971327F3D2A2A78FA3C /* LDZFMath-prefix.pch */,
+				AC9703F5C44DAA09F884CB9D086D8BA9 /* LDZFMath-umbrella.h */,
+				0F61B49C1A9C4C0F6F1A9407CBE827E8 /* LDZFMath.debug.xcconfig */,
+				26493E6FBFFF4A213728E3B8E09F5A34 /* LDZFMath.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LDZFMath";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				772248B607C14A3EFAA0554E5FE479C1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				89CAC5DA02C71022B6ED635CD655EBD7 /* Products */,
+				63EE5D6CA4865D446C8721A1E8477377 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E89B336A7CF2FE3362DCC1837722E3C4 /* Pods-LDZFMath_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D8D788B395B43D1813607ABFD3A488F9 /* Pods-LDZFMath_Example.modulemap */,
+				01EC42743F442D2C3C341A260B2426FB /* Pods-LDZFMath_Example-acknowledgements.markdown */,
+				6A20A65273F3F55EDFEEED47541F52A9 /* Pods-LDZFMath_Example-acknowledgements.plist */,
+				BBEB9B76E681F712C3B40322DBEB1372 /* Pods-LDZFMath_Example-dummy.m */,
+				9F0C9877BF714A1D9C84241394C9C476 /* Pods-LDZFMath_Example-frameworks.sh */,
+				CBEB0E0EA802E2C1E634D6F8FFFE1446 /* Pods-LDZFMath_Example-Info.plist */,
+				B469E19A308B36137C672A52B04C260F /* Pods-LDZFMath_Example-umbrella.h */,
+				D265D252F4A780AC78DA6A27AABAE556 /* Pods-LDZFMath_Example.debug.xcconfig */,
+				5452AC6B56E735A5218FB9DBD9349B73 /* Pods-LDZFMath_Example.release.xcconfig */,
+			);
+			name = "Pods-LDZFMath_Example";
+			path = "Target Support Files/Pods-LDZFMath_Example";
+			sourceTree = "<group>";
+		};
+		EA471297A3F45C9DA445BFA982924C29 /* Pods-LDZFMath_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				27587CFC0435B8141A0A206C2B963FD3 /* Pods-LDZFMath_Tests.modulemap */,
+				BFC7543594486842EE96B3AAE5C9160A /* Pods-LDZFMath_Tests-acknowledgements.markdown */,
+				61DAC3CFEB7C8AF76376C3A596E3D8A9 /* Pods-LDZFMath_Tests-acknowledgements.plist */,
+				CB880F82D043E074189DAE6919E6149B /* Pods-LDZFMath_Tests-dummy.m */,
+				6703A4052E35D83F474C4988EC28DD9E /* Pods-LDZFMath_Tests-Info.plist */,
+				F94FF784AC685FA06A39E46DBB7A1846 /* Pods-LDZFMath_Tests-umbrella.h */,
+				4896A012F29CD44D6D5879353C087CE5 /* Pods-LDZFMath_Tests.debug.xcconfig */,
+				BAD93CD07255B69DEA65D175BB075CC7 /* Pods-LDZFMath_Tests.release.xcconfig */,
+			);
+			name = "Pods-LDZFMath_Tests";
+			path = "Target Support Files/Pods-LDZFMath_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15F709136FB01228B3E8466F03401DC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C65AC66B2BD96AD9846CC5E45A1CE9 /* Pods-LDZFMath_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256BD07F571508EFD7A5E7A91A931D87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD53522CE1DA0E4C757148B79184DACD /* ComputationStrategy.h in Headers */,
+				DBF3C81240ED19DE69B388D9E8AFEFEF /* LDMath.h in Headers */,
+				5645016E254543EC288317770C38CA3E /* LDZFMath-umbrella.h in Headers */,
+				73ABF0E97FDFC318F2DC2575F0FDCDCB /* LDZFMath.h in Headers */,
+				E7D48C541386A34EA6013959425CB30B /* MathematicalComputation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFF02FD7F2CAB84A2A491F141AA3303 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2159BBA9E56146904A6BA3E5538F4F3F /* Pods-LDZFMath_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7F77F41282D2BA2222B3E68F6E18E934 /* LDZFMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46B34806584D44EE707D5FC8B4B0E322 /* Build configuration list for PBXNativeTarget "LDZFMath" */;
+			buildPhases = (
+				256BD07F571508EFD7A5E7A91A931D87 /* Headers */,
+				909E64A40308AA24B296D2407DAD02C1 /* Sources */,
+				5E0E5CF1FF5084C67E869F5E0F3769AD /* Frameworks */,
+				DB23ADDE12AC13560C27A655D38186F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDZFMath;
+			productName = LDZFMath;
+			productReference = 7003E04E172A7B130DA597746C526A6B /* LDZFMath.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D175478322C8FB434EBA8000AD3C7AB5 /* Pods-LDZFMath_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F88659DEABEED26C7D80F2680CA6E76 /* Build configuration list for PBXNativeTarget "Pods-LDZFMath_Tests" */;
+			buildPhases = (
+				15F709136FB01228B3E8466F03401DC8 /* Headers */,
+				72701F17C056E9D3883BE53751C32C01 /* Sources */,
+				8454D20D6A1E255122EC2FCDACD94181 /* Frameworks */,
+				BD40340CEC823423B79E2D442B9CD2D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9580BFDF75BB4F305B47858A7382D17 /* PBXTargetDependency */,
+			);
+			name = "Pods-LDZFMath_Tests";
+			productName = "Pods-LDZFMath_Tests";
+			productReference = EB691E0BBBCDB5F0AD4275CCF8910D0E /* Pods_LDZFMath_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E018B579500A5A18DA6FB952503A6E97 /* Pods-LDZFMath_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C58BE6E44457116CA2937CCAF4F3AEC /* Build configuration list for PBXNativeTarget "Pods-LDZFMath_Example" */;
+			buildPhases = (
+				4DFF02FD7F2CAB84A2A491F141AA3303 /* Headers */,
+				A9F5383CEB865F14427124279ACCA7FA /* Sources */,
+				970CA30A744EC5AFB91A4A85963640EF /* Frameworks */,
+				CF35354A46C5BA79D2F4EA4586818774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DCCD7FA4800DA556B277109C65175F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-LDZFMath_Example";
+			productName = "Pods-LDZFMath_Example";
+			productReference = 8FE03D000BE4417E7EFEFDF3C492EA73 /* Pods_LDZFMath_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 89CAC5DA02C71022B6ED635CD655EBD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F77F41282D2BA2222B3E68F6E18E934 /* LDZFMath */,
+				E018B579500A5A18DA6FB952503A6E97 /* Pods-LDZFMath_Example */,
+				D175478322C8FB434EBA8000AD3C7AB5 /* Pods-LDZFMath_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD40340CEC823423B79E2D442B9CD2D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF35354A46C5BA79D2F4EA4586818774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB23ADDE12AC13560C27A655D38186F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72701F17C056E9D3883BE53751C32C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0EED8347666549206ECF07407BC6B1 /* Pods-LDZFMath_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909E64A40308AA24B296D2407DAD02C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0639727009466EFF1C4B1B46A36F9D5B /* ComputationStrategy.m in Sources */,
+				F964B7AA7698265EE95521D9C4E51CE2 /* LDMath.m in Sources */,
+				1E679A2EBBAAD85C7943B23CCDFF92E2 /* LDZFMath-dummy.m in Sources */,
+				3FAF83E8BDA133F389C84CA67D46978A /* MathematicalComputation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F5383CEB865F14427124279ACCA7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217539A6A9630DF0E0205BCB6037859B /* Pods-LDZFMath_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DCCD7FA4800DA556B277109C65175F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LDZFMath;
+			target = 7F77F41282D2BA2222B3E68F6E18E934 /* LDZFMath */;
+			targetProxy = D194FA1A5123082D7A80D829E374CA79 /* PBXContainerItemProxy */;
+		};
+		D9580BFDF75BB4F305B47858A7382D17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LDZFMath_Example";
+			target = E018B579500A5A18DA6FB952503A6E97 /* Pods-LDZFMath_Example */;
+			targetProxy = 50817F383431D04DFF7B9251EA4AAE79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3C92ABBD4A3123320DB0C3DE46638A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D265D252F4A780AC78DA6A27AABAE556 /* Pods-LDZFMath_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LDZFMath_Example/Pods-LDZFMath_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDZFMath_Example/Pods-LDZFMath_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		444C64FB6CA9D71E1816BFB1F01BBA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F61B49C1A9C4C0F6F1A9407CBE827E8 /* LDZFMath.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LDZFMath/LDZFMath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LDZFMath/LDZFMath-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LDZFMath/LDZFMath.modulemap";
+				PRODUCT_MODULE_NAME = LDZFMath;
+				PRODUCT_NAME = LDZFMath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F0C58C14008846B0E307D420538AACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD93CD07255B69DEA65D175BB075CC7 /* Pods-LDZFMath_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LDZFMath_Tests/Pods-LDZFMath_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDZFMath_Tests/Pods-LDZFMath_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E65D2B6ECBEE48C32F34A148A099E593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4896A012F29CD44D6D5879353C087CE5 /* Pods-LDZFMath_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LDZFMath_Tests/Pods-LDZFMath_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDZFMath_Tests/Pods-LDZFMath_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9D393E57F123D12CFD560211E8E7766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5452AC6B56E735A5218FB9DBD9349B73 /* Pods-LDZFMath_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LDZFMath_Example/Pods-LDZFMath_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDZFMath_Example/Pods-LDZFMath_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB24D8BF31BD92F85ECE62C1E15631E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26493E6FBFFF4A213728E3B8E09F5A34 /* LDZFMath.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LDZFMath/LDZFMath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LDZFMath/LDZFMath-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LDZFMath/LDZFMath.modulemap";
+				PRODUCT_MODULE_NAME = LDZFMath;
+				PRODUCT_NAME = LDZFMath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46B34806584D44EE707D5FC8B4B0E322 /* Build configuration list for PBXNativeTarget "LDZFMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444C64FB6CA9D71E1816BFB1F01BBA22 /* Debug */,
+				EB24D8BF31BD92F85ECE62C1E15631E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C58BE6E44457116CA2937CCAF4F3AEC /* Build configuration list for PBXNativeTarget "Pods-LDZFMath_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C92ABBD4A3123320DB0C3DE46638A61 /* Debug */,
+				E9D393E57F123D12CFD560211E8E7766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F88659DEABEED26C7D80F2680CA6E76 /* Build configuration list for PBXNativeTarget "Pods-LDZFMath_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65D2B6ECBEE48C32F34A148A099E593 /* Debug */,
+				9F0C58C14008846B0E307D420538AACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

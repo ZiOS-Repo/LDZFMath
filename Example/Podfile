@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LDZFMath_Example' do
+  pod 'LDZFMath', :path => '../'
+
+  target 'LDZFMath_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
